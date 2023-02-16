@@ -3,7 +3,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "cloudops.support+153@sonymusic.com"
-    AccountName               = "sme-aft-terraform-sandbox"
+    AccountName               = "sme-aft-tf-sandbox-dev"
     ManagedOrganizationalUnit = "SME-SANDBOX"
     SSOUserEmail              = "cloudops.support+153@sonymusic.com"
     SSOUserFirstName          = "Sandbox"
