@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "cloudops.support+169@sonymusic.com"
     AccountName               = "sme-scuba-sandbox"
-    ManagedOrganizationalUnit = "SME-SANDBOX"
+    ManagedOrganizationalUnit = "Root"
     SSOUserEmail              = "cloudops.support+169@sonymusic.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
