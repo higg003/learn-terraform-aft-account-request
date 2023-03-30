@@ -2,11 +2,11 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "cloudops.support+170@sonymusic.com"
-    AccountName               = "sme-scuba-launch-sandbox"
+    AccountEmail              = "cloudops.support+171@sonymusic.com"
+    AccountName               = "sme-scuba-af-sandbox"
     ManagedOrganizationalUnit = "SME-SANDBOX"
-    SSOUserEmail              = "cloudops.support+170@sonymusic.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserEmail              = "cloudops.support+171@sonymusic.com"
+    SSOUserFirstName          = "Scuba-Sandbox"
     SSOUserLastName           = "AFT"
   }
 
