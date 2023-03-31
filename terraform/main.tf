@@ -3,7 +3,7 @@ module "Scuba-af" {
 
   control_tower_parameters = {
     AccountEmail              = "cloudops.support+174@sonymusic.com"
-    AccountName               = "sme-scuba-af-sandbox"
+    AccountName               = "sme-sandbox-sam-001"
     ManagedOrganizationalUnit = "SME-SANDBOX"
     SSOUserEmail              = "cloudops.support+174@sonymusic.com"
     SSOUserFirstName          = "Scuba-GT"
