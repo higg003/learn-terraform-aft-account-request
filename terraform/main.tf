@@ -26,15 +26,15 @@ module "DashStats01" {
   account_customizations_name = "sandbox"
 }
 
-module "DashStats02" {
+module "DashStats002" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "cloudops.support+190@sonymusic.com"
-    AccountName               = "sme-dash-sandbox-02"
+    AccountEmail              = "cloudops.support+191@sonymusic.com"
+    AccountName               = "sme-dash-sandbox-002"
     ManagedOrganizationalUnit = "SME-SANDBOX"
-    SSOUserEmail              = "cloudops.support+190@sonymusic.com"
-    SSOUserFirstName          = "DashStats"
+    SSOUserEmail              = "cloudops.support+191@sonymusic.com"
+    SSOUserFirstName          = "DashStats2"
     SSOUserLastName           = "AFT"
   }
 
