@@ -115,7 +115,7 @@ module "CloudOpstest02" {
 
   control_tower_parameters = {
     AccountEmail              = "cloudops.support+194@sonymusic.com"
-    AccountName               = "sme-cloudops-sandbox-01"
+    AccountName               = "sme-cloudops-sandbox-02"
     ManagedOrganizationalUnit = "SME-SANDBOX"
     SSOUserEmail              = "cloudops.support+194@sonymusic.com"
     SSOUserFirstName          = "ClOps"
