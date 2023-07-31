@@ -114,10 +114,10 @@ module "CloudOpstest02" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "cloudops.support+194@sonymusic.com"
-    AccountName               = "sme-cloudops-sandbox-02"
+    AccountEmail              = "cloudops.support+195@sonymusic.com"
+    AccountName               = "sme-cloudops-sandbox-03"
     ManagedOrganizationalUnit = "SME-SANDBOX"
-    SSOUserEmail              = "cloudops.support+194@sonymusic.com"
+    SSOUserEmail              = "cloudops.support+195@sonymusic.com"
     SSOUserFirstName          = "ClOps"
     SSOUserLastName           = "AFT"
   }
