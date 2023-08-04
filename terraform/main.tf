@@ -146,6 +146,39 @@ module "CloudOpstest02" {
   account_customizations_name = "sandbox-eu"
 }
 
+module "CloudOpstest03" {
+  source = "./modules/aft-account-request"
+
+  control_tower_parameters = {
+    AccountEmail              = "cloudops.support+197@sonymusic.com"
+    AccountName               = "sme-cloudops-sandbox-05"
+    ManagedOrganizationalUnit = "SME-SANDBOX"
+    SSOUserEmail              = "cloudops.support+197@sonymusic.com"
+    SSOUserFirstName          = "ClOps"
+    SSOUserLastName           = "AFT"
+  }
+
+  account_tags = {
+    "CreatedBy" = "AFT",
+    "Environment" = "Sandbox",
+    "Owner" = "CloudOps",
+    "Purpose" = "Testing",
+    "Region" = "EU"
+  }
+
+  change_management_parameters = {
+    change_requested_by = "deja001"
+    change_reason       = "Testing DynamoDB change"
+  }
+
+  custom_fields = {
+    group = "non-prod"
+    vpc_cidr = "0.0.0.0/0"
+  }
+
+  account_customizations_name = "sandbox-eu"
+}
+
 module "Kube01" {
   source = "./modules/aft-account-request"
 
