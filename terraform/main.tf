@@ -262,7 +262,7 @@ module "Scuba-aft" {
 
   account_customizations_name = "sandbox"
 }
-module "Scuba-aft" {
+module "Scuba-aft-03" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
