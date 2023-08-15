@@ -1,11 +1,11 @@
-module "DashStats01" {
+module "DashStats003" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "cloudops.support+176@sonymusic.com"
-    AccountName               = "sme-dash-sandbox-001"
+    AccountEmail              = "cloudops.support+199@sonymusic.com"
+    AccountName               = "sme-dash-sandbox-003"
     ManagedOrganizationalUnit = "SME-SANDBOX"
-    SSOUserEmail              = "cloudops.support+176@sonymusic.com"
+    SSOUserEmail              = "cloudops.support+199@sonymusic.com"
     SSOUserFirstName          = "DashStats"
     SSOUserLastName           = "AFT"
   }
